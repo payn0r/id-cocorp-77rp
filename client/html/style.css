@@ -1,0 +1,47 @@
+@font-face {
+    font-family: kenyan;
+    src: url('../html/kenyan_coffee_rg.ttf')
+}
+
+@font-face {
+    font-family: max_impact;
+    src: url('../html/Maximum_Impact.ttf')
+}
+
+html, body {
+    overflow: hidden;
+    background-color: transparent !important;
+    display: block;
+}
+
+.bgr-group {
+    font-family: kenyan;
+    color: white;
+    text-shadow: 2px 2px black;
+    height: 150px;
+    width: 1px;
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    display: inline-block;
+}
+
+.img {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    height: 50px;
+    width: 50px;
+    background-image: url('../html/logo.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+ 
+#id {
+    position: absolute;
+    font-family: kenyan;
+    font-size: 24px;
+    top: 32px;
+}
